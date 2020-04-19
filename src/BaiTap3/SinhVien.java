@@ -49,4 +49,9 @@ public class SinhVien {
     public void setDiemTb(float diemTb) {
         this.diemTb = diemTb;
     }
+    public void HienThiTT(){
+        System.out.println("Ho & Ten: "+hoTen);
+        System.out.println("Ngay Sinh: "+ngaySinh);
+        System.out.println("Diem TB: "+diemTb);
+    }
 }
